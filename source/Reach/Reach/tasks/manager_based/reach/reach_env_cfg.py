@@ -37,7 +37,8 @@ from . import mdp
 # Pre-defined configs
 ##
 
-from .ur_gripper import UR_GRIPPER_CFG  # isort:skip
+#from .ur_gripper import UR_GRIPPER_CFG  # isort:skip
+from Reach.assets.ur_gripper import UR_GRIPPER_CFG
 
 ##
 # Scene definition
