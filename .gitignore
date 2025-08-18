@@ -14,8 +14,6 @@
 #**/*.usdc
 #**/*.usdz
 
-# recording folder
-./recordings/
 
 # Python
 .DS_Store
