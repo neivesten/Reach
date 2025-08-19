@@ -1,4 +1,4 @@
-# UR Robot Reach Training Code
+# UR Robot Reach Training 
 
 [![IsaacSim](https://img.shields.io/badge/IsaacSim-4.5.0-green.svg)](https://docs.isaacsim.omniverse.nvidia.com/4.5/index.html)
 [![Isaac Lab](https://img.shields.io/badge/IsaacLab-2.0-orange)](https://github.com/isaac-sim/IsaacLab)
@@ -57,9 +57,6 @@ Run a trained policy for evaluation:
 ```bash
 # Play with default settings (50 environments for visualization)
 python scripts/skrl/play.py --task Template-Reach-Play-v0
-
-# Play with specific checkpoint
-python scripts/skrl/play.py --task Template-Reach-Play-v0 --checkpoint /path/to/model.pt
 
 ```
 
