@@ -55,7 +55,6 @@ python scripts/skrl/train.py --task Template-Reach-v0 --headless
 Run a trained policy for evaluation:
 
 ```bash
-# Play with default settings (50 environments for visualization)
 python scripts/skrl/play.py --task Template-Reach-Play-v0
 
 ```
