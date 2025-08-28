@@ -22,7 +22,7 @@ This repository contains training code for our specific configured robot, Univer
 - Clone this repository separately from the Isaac Lab installation:
 
 ```bash
-git clone <repository-url>
+git clone <repository-ssh>
 cd Reach
 ```
 
@@ -46,7 +46,7 @@ python scripts/list_envs.py
 Train a PPO agent on the reach task using SKRL:
 
 ```bash
-python scripts/skrl/train.py --task Template-Reach-v0
+python scripts/skrl/train.py --task Template-Reach-v0 --headless
 
 ```
 
